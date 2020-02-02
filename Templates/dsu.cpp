@@ -19,5 +19,3 @@ void uni(int a, int b){
 	if(sz[ra] < sz[rb]) swap(ra,rb);
 	id[rb] = ra , sz[ra] += sz[rb];
 }
-
-
